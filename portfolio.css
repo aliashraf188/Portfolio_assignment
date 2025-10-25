@@ -64,6 +64,7 @@ ul>button{
 ul>button:hover{
     font-weight: bold;
     background-color: rgb(102, 83, 206);
+    box-shadow: 5px 5px 3px darkslateblue;
 }
 /* li.noor{
      color: black;
@@ -73,10 +74,16 @@ ul>button:hover{
         padding: 10px;
         align-items: end;
 } */
+ /* home section */
 #home{
     /* border: 2px solid black; */
     width: 100%;
     margin-top: 15d0px;
+}
+button.btn:hover{
+      font-weight: bold;
+    background-color: rgb(102, 83, 206);
+    box-shadow: 5px 5px 3px darkslateblue;
 }
 #left{
     /* border: 2px solid black; */
@@ -133,7 +140,7 @@ ul>button:hover{
 #left-img{
 /* border: 2px solid black; */
     border-radius: 3%;
-    width: 42.80%;
+    width: 47.80%;
     display: inline-block;
     vertical-align: middle;
     box-shadow: 10px 5px 2px 2px #616060;
