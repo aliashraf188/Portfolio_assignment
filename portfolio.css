@@ -81,11 +81,6 @@ ul>button:hover{
     width: 100%;
     margin-top: 15d0px;
 }
-.btn:hover{
-      font-weight: bold;
-    background-color: rgb(102, 83, 206);
-    box-shadow: 5px 5px 3px darkslateblue;
-}
 #left{
     /* border: 2px solid black; */
     width: 49%;
@@ -120,6 +115,8 @@ ul>button:hover{
 }
 #text>button:hover{
     background-color: rgb(102, 83, 206);
+      font-weight: bold;
+    box-shadow: 5px 5px 3px darkslateblue;
 }
 #right>img{
     width: 80%;
@@ -141,7 +138,7 @@ ul>button:hover{
 #left-img{
 /* border: 2px solid black; */
     border-radius: 3%;
-    width: 47.80%;
+    width: 37.80%;
     display: inline-block;
     vertical-align: middle;
     box-shadow: 10px 5px 2px 2px #616060;
@@ -176,6 +173,8 @@ ul>button:hover{
 }
 #text1>button:hover{
     background-color:rgb(102, 83, 206) ;
+      font-weight: bold;
+    box-shadow: 5px 5px 3px darkslateblue;
 }
 
 /* portfolio */
@@ -215,7 +214,7 @@ ul>button:hover{
 #cardtext>p{
     color: rgb(156, 149, 149);
 }
-#cardtext>button{
+/* #cardtext>button{
     padding: 10px 20px;
     border-radius: 10px;
     border-color: rgb(136, 133, 133);
@@ -223,9 +222,11 @@ ul>button:hover{
 }
 #cardtext>button:hover{
     cursor: pointer;
+      font-weight: bold;
+    box-shadow: 5px 5px 3px darkslateblue;
     color: var(--primarycolor--);
     border-color: var(--primarycolor--);
-}
+} */
 /* #left-contact{
     border: 2px solid black;
 } */
@@ -301,6 +302,8 @@ button{
 button:hover{
     color:white ;
     background-color: var(--primarycolor--);
+      font-weight: bold;
+    box-shadow: 5px 5px 3px darkslateblue;
 }
 .panel{
     /* min-height: 100vh; */
