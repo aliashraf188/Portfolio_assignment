@@ -81,7 +81,7 @@ ul>button:hover{
     width: 100%;
     margin-top: 15d0px;
 }
-button.btn:hover{
+.btn:hover{
       font-weight: bold;
     background-color: rgb(102, 83, 206);
     box-shadow: 5px 5px 3px darkslateblue;
