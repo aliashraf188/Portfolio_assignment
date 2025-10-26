@@ -94,6 +94,14 @@ ul>button:hover{
     display: inline-block;
     vertical-align: middle;
 }
+#right{
+    width: 50%;
+    height: 40%;
+}
+#right>img{
+    width: 100%;
+}
+
 #text{
     /* border: 2px solid red; */
     margin: 70px 30px;
@@ -136,11 +144,19 @@ ul>button:hover{
     margin-top: 150px;
 }
 #left-img{
-/* border: 2px solid black; */
+    width: 50%;
+    height: 40%;
+    /* border: 2px solid black;
     border-radius: 3%;
     width: 37.80%;
     display: inline-block;
     vertical-align: middle;
+    box-shadow: 10px 5px 2px 2px #616060; */
+}
+#left-img>img{
+    width: 100%;
+    border-radius: 5%;
+    display: inline-block;
     box-shadow: 10px 5px 2px 2px #616060;
 }
 #about-right{
@@ -185,7 +201,7 @@ ul>button:hover{
     text-align: center;
     margin-top: 150px;
 }
-#title>h1{
+.heading{
     font-size: var(--title--);
 }
 #title>p{
@@ -196,7 +212,7 @@ ul>button:hover{
     width: 400px;
     /* border: 2px solid black; */
     display: inline-block;
-    margin: 20px;
+    margin: 50px;
 }
 #card:hover{
     box-shadow: 9px 9px 9px  rgb(136, 133, 133);
